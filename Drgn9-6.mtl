@@ -1,0 +1,100 @@
+# Blender MTL File: 'Drgn9-6.blend'
+# Material Count: 9
+
+newmtl ClwHorn
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.005754 0.005754 0.005754
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1.bmp
+map_Ks DrgnTexCol3-2.bmp
+
+newmtl Eyes.001
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.558545 0.558545 0.558545
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd DrgnTexCol3-1_Eye.bmp
+refl SpecEye1.bmp
+
+newmtl Material.002
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Mouth
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.254825 0.105173 0.111665
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1.bmp
+map_Bump DaevaTex2-1.bmp
+map_Ks DrgnTexCol3-2.bmp
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+
+newmtl Scales
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.228896 0.074353 0.039159
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1.bmp
+map_Bump a19-2.bmp
+map_Ks DrgnTexCol3-2.bmp
+
+newmtl Scales_DrgnTexAO
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.228896 0.074353 0.039159
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1_AO.bmp
+map_Bump a19-2.bmp
+map_Ks DrgnTexCol3-2.bmp
+
+newmtl Teeth
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1.bmp
+map_Ks DrgnTexCol3-2.bmp
+
+newmtl Underbelly
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.499169 0.308536 0.166910
+Ks 0.062396 0.038643 0.020864
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DrgnTexCol3-1.bmp
+map_Bump DaevaTex2-1.bmp
+map_Ks DrgnTexCol3-2.bmp

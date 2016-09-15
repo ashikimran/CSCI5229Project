@@ -1,0 +1,49 @@
+Project : Drawing a 3D scene of a flying dragon in different weathers and environments
+
+Ashik Imran Akbar Basha
+CSCI 5229 Summer 2015
+
+Included:
+  Source File(project.c)
+  This README
+  makefile
+
+Description:
+  Enables a dragon model to traverse an environment in a Lorentz Attractor path. Fireballs are generated and traverse a path different from that 
+of the dragon for better appearance of the dragon's flight. Light effects have been added. Four environments have been included via skyboxes.
+A particle engine simulator has been used to simulate the fire-breathing action of the dragon. The particle engine is aligned and moved as per 
+the dragon's the flight action. The fire has been modelled as realistically as possible in a "spreading-out" style. Similarly, snow-storm and 
+rain have been simluated using modified versions of the particle engine. 
+  
+To execute after compiling:   
+  ./CSCI5229Project    dragon.obj    size of dragon(0 to 1)
+
+Key bindings:
+    l/L        Toggle lighting on/off
+    f/F        Toggle flight/static mode
+    e/E        Toggle surrounding environment(Fire environment/Snow environment)  
+    g/G        Fireballs ON/OFF (Fireballs appear only if dragon is in fly mode and the first environment ie. the red one)
+    t/T        Dragon breathe fire ON/OFF (Fire Breathe can be activated only in fly mode)
+    h/H        Snow ON/OFF
+    r/R        Rain ON/OFF 
+    a          Toggle axes
+    arrows     Change view angle
+    PgDn/PgUp  Zoom in and out
+    0          Reset view angle
+    ESC        Exit
+
+Additional Information:
+   For visually pleasing appearance, please view the dragon in fly mode as follows:
+       1. Fire-breathe effect in first environment
+       2. Snow-simulation in second and third environment
+       3. Rain-simulation in the fourth environment
+   The environment numbers can be viewed at the bottom of the screen.
+
+References:
+1. Examples from the Lectures
+2. nehe.gamedev.net
+3. www.blendswap.com (Dragon model by user Nero1024)
+4. www.custommapmakers.org
+5. www.opengl.org
+6. www.learnopengl.com
+7. OpenGL : A Primer by Edward Angel 
